@@ -1,6 +1,9 @@
-#Distributed Operating System
-#Twitter clone and Simulation
-#Project 4 Part I
+Distributed Operating System
+
+Twitter clone and Simulation
+
+Project 4 Part I
+
 Team Members:
 Kasiviswanathan Srikant Iyer (UFID: 5222-2519)
 Swaathi Reena Velavan (UFID: 1230-8520
