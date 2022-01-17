@@ -1,0 +1,120 @@
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 full gossip
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+-----------------------------------------------------------------------------
+
+Only one actor alive so it can't gossip to itself.
+ALL STOPPED! Terminated/Total: (7)/(8)
+ Running time is: 99.190400 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 3D gossip
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+Your N is:  8, turned up N is: 8
+-----------------------------------------------------------------------------
+
+Only two actors alive which will cost too much time to find random path.
+ALL STOPPED! Terminated/Total: (7)/(8)
+ Running time is: 104.268100 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 imp3D gossip
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+Your N is:  8, turned up N is: 8
+-----------------------------------------------------------------------------
+
+Only two actors alive which will cost too much time to find random path.
+No more spreading available. Algorithm terminating...
+ALL STOPPED! Terminated/Total: (7)/(8)
+ Running time is: 105.422100 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 line gossip
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+-----------------------------------------------------------------------------
+
+Only two actors alive which will cost too much time to find random path.
+No more spreading available. Algorithm terminating...
+ALL STOPPED! Terminated/Total: (7)/(8)
+ Running time is: 105.206100 ms
+ 
+ 
+ 
+ 
+ PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 full push-sum
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+-----------------------------------------------------------------------------
+
+No more spreading available.
+ALL STOPPED! Terminated/Total: (8)/(8)
+ Running time is: 137.430000 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 3D push-sum
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+-----------------------------------------------------------------------------
+
+No more spreading available.
+ALL STOPPED! Terminated/Total: (8)/(8)
+ Running time is: 126.104200 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 imp3D push-sum
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+-----------------------------------------------------------------------------
+
+[|1; 1; 1; 1; 1; 1; 1; 1|]
+No more spreading available.
+ALL STOPPED! Terminated/Total: (8)/(8)
+ Running time is: 129.230200 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 8 line push-sum
+Your N is:  8, N cuberoot is: 2, turned up N is: 8
+-----------------------------------------------------------------------------
+
+[|1; 1; 1; 1; 1; 1; 1; 1|]
+No more spreading available.
+ALL STOPPED! Terminated/Total: (8)/(8) 
+ Running time is: 187.610800 ms
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 125 full gossip
+Your N is:  125, N cuberoot is: 5, turned up N is: 125
+-----------------------------------------------------------------------------
+
+Only one actor alive so it can't gossip to itself.
+No more spreading available. Algorithm terminating...
+ Running time is: 164.031400 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 125 3D gossip
+Your N is:  125, N cuberoot is: 5, turned up N is: 125
+Your N is:  125, turned up N is: 125
+-----------------------------------------------------------------------------
+
+Only two actors alive which will cost too much time to find random path.
+No more spreading available. Algorithm terminating...
+ Running time is: 377.086900 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 125 imp3D gossip
+Your N is:  125, N cuberoot is: 5, turned up N is: 125
+Your N is:  125, turned up N is: 125
+-----------------------------------------------------------------------------
+
+Only two actors alive which will cost too much time to find random path.
+No more spreading available. Algorithm terminating...
+ALL STOPPED! Terminated/Total: (123)/(125)
+ Running time is: 330.774800 ms
+PS C:\Users\ksrik\Desktop\DOSP\Project\P> dotnet fsi --langversion:preview trial.fsx 125 line gossip
+Your N is:  125, N cuberoot is: 5, turned up N is: 125
+-----------------------------------------------------------------------------
+
+Only two actors alive which will cost too much time to find random path.
+No more spreading available. Algorithm terminating...
+ALL STOPPED! Terminated/Total: (124)/(125)
+ Running time is: 474.383500 ms
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+
+
+
